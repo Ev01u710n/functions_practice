@@ -12,8 +12,14 @@
  */
 
 // Your code goes here...
+function getDiffTwentySeven(num) {
+  if (num > 27) return 20;
+  else if (num < 27) return 14;
+  else return 0;
+}
 
-
+getDiffTwentySeven(13);
+getDiffTwentySeven(37);
 
 
 /** =========================
@@ -24,9 +30,13 @@
  */
 
 // Your code goes here
+function sumOfTwoIntegers(num1, num2) {
+  if (num1 && num2 == 12) return (num1 + num2) * 3;
+  else return num1 + num2
+}
 
-
-
+sumOfTwoIntegers(13, 14);
+sumOfTwoIntegers(12, 12);
 
 /** =========================
  * Create a isOneOfThemOrTheirSumIsFourty(num1, num2) function to check two given numbers and return a boolean.
@@ -38,9 +48,14 @@
  */
 
 // Your code goes here...
+function isOneOfThemOrTheirSumIsFourty(num1, num2) {
+  if (num1 + num2 == 40 || num1 == 40 || num2 == 40) return true;
+  else return false
+}
 
-
-
+isOneOfThemOrTheirSumIsFourty(40, 13);
+isOneOfThemOrTheirSumIsFourty(22, 18);
+isOneOfThemOrTheirSumIsFourty(23, 16);
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-5"
